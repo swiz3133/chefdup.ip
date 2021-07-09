@@ -1,0 +1,118 @@
+#header{
+    background-image: url(mainpic.jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+#logo{
+    margin-bottom: 180px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#logo a{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#header .container{
+    border-bottom: none;
+    box-shadow: none;
+}
+
+#nav > ul > li > a > span{
+    color: white;
+}
+
+#header h1 a{
+    text-shadow:5px 5px 5px black;
+}
+
+#header p{
+    color: white;
+    font-size: 1em;
+    position:relative;
+    z-index: auto;
+    top: -150px;
+}
+
+.animated-text{
+
+}
+
+strong, b {
+    font-weight: 800;
+    color: black;
+    font-size: x-large;
+}
+
+.button1{
+    border: black solid 1px;
+    border-color: white;
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.button1:hover{
+    background-color: rgb(248, 165, 134); 
+    font-size: 12px;
+}
+
+#banner{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(1.1.jpg); 
+    animation: banner 20s infinite;
+}
+
+@keyframes banner{
+    25%{
+        background: url(2.jpg);
+    }
+    50%{
+        background: url(3.jpg);
+    }
+    75%{
+        background: url(1.jpg);
+    }
+    100%{
+        background: url(1.1.jpg);
+    }
+}
+
+.description{
+    font-weight: normal;
+    padding-bottom: 45px;
+    text-transform: none;
+    text-align: center;
+}
+
+.image.featured{
+    margin: 0%;
+}
+
+
+/*
+@media screen and (max-width: 980px)
+#titleBar .toggle:before {
+    display: inline-block;
+    text-decoration: none;
+    content: '\f0c9';
+    display: block;
+    width: 60px;
+    height: 40px;
+    background: rgba(232, 232, 232, 0.9);
+    border-radius: 4px;
+    position: absolute;
+    left: 335px;
+    top: 5px;
+    box-shadow: 0.125em 0.125em 0 0 rgb(0 0 0 / 15%);
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #aaa;
+}
